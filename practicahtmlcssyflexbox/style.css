@@ -5,6 +5,25 @@ body{
   font-family:Verdana, serif;
 }
 
+/* Estilos para el botón de regreso al menú */
+.btn-volver {
+    position: fixed;
+    top: 15px;
+    right: 15px; /* Lo ponemos a la derecha para que no choque con el texto de tu header */
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    z-index: 10000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    transition: background 0.3s;
+}
+.btn-volver:hover { 
+    background-color: #000; 
+}
 header{
     height: 70px;
     line-height: 70px;
